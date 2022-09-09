@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -252,7 +252,7 @@
       </footer>
       <script src="js/jquery-1.9.1.min.js"></script>
       <script src="js/main.js"></script>
-      <script type="text/javascript">
+      <script>
          $(function(){
          $('a[href^="#"]').click(function(){
          var target = $(this).attr('href');
