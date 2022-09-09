@@ -181,6 +181,10 @@
    .page4 .page4_columns .page4_rows .page4_item .item4_img {
       height: 240px;
    }
+   .title21:before,
+   .title21:after {
+      top: 15px;
+   }
 }
 
 @media(max-width: 1150px) {
@@ -332,6 +336,10 @@
       font-size: 17px;
       line-height: 21px;
    }
+   .title21:before,
+   .title21:after {
+      top: 10px;
+   }
 }
 
 @media(max-width: 950px) {
@@ -406,6 +414,10 @@
    }
    .footer .footer_body>*:not(:last-child) {
       margin-bottom: 30px;
+   }
+   .title21:before,
+   .title21:after {
+      top: 15px;
    }
 }
 
@@ -574,6 +586,10 @@
    .footer .footer_body .footer_list .footer_link a:after {
       top: -50px;
    }
+   .title21:before,
+   .title21:after {
+      top: 15px;
+   }
 }
 
 @media(max-width: 550px) {
@@ -680,6 +696,10 @@
    }
    .footer .footer_body>*:not(:last-child) {
       margin-bottom: 20px;
+   }
+   .title21:before,
+   .title21:after {
+      top: 10px;
    }
 }
 
