@@ -90,16 +90,3 @@ krest.addEventListener('click', ()=> {
 
 
 // next
-
-
-window.onload = function () {
-   document.addEventListener("click", activet);
-
-   function activet(e) {
-      const targetElem = e.target;
-      if(targetElem.classList.contains('footer__up')) {
-         targetElem.closest('.footer__item2').classList.toggle('active');
-         targetElem.closest('.footer__item2').querySelector('.footer__up_icon').classList.toggle('active');
-      }
-   }
-}
