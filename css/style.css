@@ -1356,14 +1356,14 @@ body.active {
   padding: 0 0 15px 0;
 }
 .products__item01 {
-  margin: 0 50px 0 0;
+  margin: 0 50px 10px 0;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 15px;
   line-height: 120%;
   cursor: pointer;
   position: relative;
-  padding: 0 20px 20px 0;
+  padding: 0 20px 10px 0;
   overflow: hidden;
 }
 .products__item01::before {
@@ -2339,9 +2339,8 @@ body.active {
 }
 .part1__speed_group select {
   border: none;
-}
-.part1__speed_group option {
-  padding: 2px;
+  outline: none;
+  background: transparent;
 }
 .part1__brand_group, .part1__model_group {
   display: -ms-grid;

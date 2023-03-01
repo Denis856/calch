@@ -1006,14 +1006,14 @@ $blue: #1C62CD;
       padding: 0 0 15px 0;
    }
    &__item01 {
-      margin: 0 50px 0 0;
+      margin: 0 50px 10px 0;
       text-transform: uppercase;
       font-weight: 500;
       font-size: 15px;
       line-height: 18 / 15 * 100%;
       cursor: pointer;
       position: relative;
-      padding: 0 20px 20px 0;
+      padding: 0 20px 10px 0;
       overflow: hidden;
       &::before {
          content: '';
@@ -1775,9 +1775,10 @@ $blue: #1C62CD;
       }
       select {
          border: none;
+         outline: none;
+         background: transparent;
       }
       option {
-         padding: 2px;
       }
    }
    &__brand_group,
