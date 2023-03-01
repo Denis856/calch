@@ -4,7 +4,8 @@ var item0 = document.querySelectorAll('.footer__item2');
 burger.addEventListener("click", ()=>{
    document.querySelector('.header__menu_burger').classList.toggle('active');
    document.querySelector('body').classList.toggle('active');
-   burger0.classList.toggle('active');
+   document.querySelector('.home1__part1').classList.remove('active');
+   burger0.classList.remove('active');
    item0.forEach(item => {
       item.classList.remove('active');
       item.closest('.footer__item2').querySelector('.footer__up_icon').classList.remove('active');

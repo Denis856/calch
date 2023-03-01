@@ -1354,7 +1354,6 @@ $blue: #1C62CD;
 .home1 {
    &__burger {
       position: relative;
-      z-index: 10;
       padding: 30px 0;
       @media(min-width: 1100px) {
          display: none;
@@ -1903,6 +1902,10 @@ $blue: #1C62CD;
 
 .hidden0 {
    display: none;
+}
+
+.active2 {
+   z-index: -1;
 }
 
 .field {
