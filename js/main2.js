@@ -87,3 +87,19 @@ krest.addEventListener('click', ()=> {
    document.querySelector('.home1__part1').classList.remove('active');
    burger0.classList.remove('active');
 });
+
+
+// next
+
+
+window.onload = function () {
+   document.addEventListener("click", activet);
+
+   function activet(e) {
+      const targetElem = e.target;
+      if(targetElem.classList.contains('footer__up')) {
+         targetElem.closest('.footer__item2').classList.toggle('active');
+         targetElem.closest('.footer__item2').querySelector('.footer__up_icon').classList.toggle('active');
+      }
+   }
+}
